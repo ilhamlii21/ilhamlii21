@@ -14,35 +14,48 @@ size-adjust: 109%;
 .delColor {fill: #f85149;}
 .cc {fill: #616e7f;}
 text, tspan {white-space: pre;}
+.ascii {font-family: "Consolas", "Courier New", Courier, monospace;}
 </style>
-<rect width="985px" height="530px" fill="#161b22" rx="15"/>
-<text x="15" y="30" fill="#c9d1d9" class="ascii">
-<tspan x="15" y="30">                     -*r*-                  </tspan>
-<tspan x="15" y="50">                    :!rrrr;                 </tspan>
-<tspan x="15" y="70">                   :rrrrrrr;-,    ,--.      </tspan>
-<tspan x="15" y="90">       .,,,,   -:*|rrrrrrrrrrr!|*!rrr|      </tspan>
-<tspan x="15" y="110">    -*|!!rr!!||rrrrrrrrrrrrrrrrrrrrrrr,     </tspan>
-<tspan x="15" y="130">    ~rrrrrrrrrrrrrrr!*;::~~::;*|!rrrrr:     </tspan>
-<tspan x="15" y="150">    -rrrrrrrrrrrr|:,            ,-;|rrr*,   </tspan>
-<tspan x="15" y="170">     *rrrrrrrrr|-                   ~|rr!-  </tspan>
-<tspan x="15" y="190">     ,|rrrrrrr:          ,----,.      ~!r!  </tspan>
-<tspan x="15" y="210">      ,!!!!!r:        -;|!rrrr!!|;-    ,|r  </tspan>
-<tspan x="15" y="230">      :!!!!!*       -*!r!!|||!!r!!!|:   ,|  </tspan>
-<tspan x="15" y="250">      |!!!!!-      -!!!;-,   ,-:|!!!!*,  -  </tspan>
-<tspan x="15" y="270">   ,~*!|||!|.     .|!|-         .:!!!!|,    </tspan>
-<tspan x="15" y="290"> .:|!||||||*      ,|!~            :|||!;    </tspan>
-<tspan x="15" y="310">,;||||||||||,     ,*|~            .|||||,   </tspan>
-<tspan x="15" y="330">;|||||||||||:      -|*-           .*||||,   </tspan>
-<tspan x="15" y="350">.~;||||*****|~      ,:*;~----     ~|****;,  </tspan>
-<tspan x="15" y="370">   ,~:;*******:.      .,-~--.    -********  </tspan>
-<tspan x="15" y="390">       .-******;~.             .~*********  </tspan>
-<tspan x="15" y="410">         ,:******;:-,.      .-~;*****:~-,.  </tspan>
-<tspan x="15" y="430">          ,;;;;;;;;;;;::::::;;;;;;;;-       </tspan>
-<tspan x="15" y="450">          -;;;;;;;;;;;;;;;;;;;;;;;-.        </tspan>
-<tspan x="15" y="470">          -;;;;;;;;:::;;;;;;;;;;;;-          </tspan>
-<tspan x="15" y="490">          .::::~-,. .,,,,-:::::::.          </tspan>
-<tspan x="15" y="510">           ...            .,~::~.           </tspan>
+<defs>
+  <linearGradient id="grafana-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F05A28" />
+    <stop offset="100%" stop-color="#FBCA0A" />
+  </linearGradient>
+</defs>
+<rect width="985px" height="530px" fill="#0D1117" rx="15"/>
+<g transform="translate(10, 45) scale(0.75)">
+<text x="15" y="30" fill="url(#grafana-gradient)" class="ascii">
+<tspan x="15" y="30">                         xxnr                      </tspan>
+<tspan x="15" y="50">                       unnnnnxr                    </tspan>
+<tspan x="15" y="70">                      unnnnnnnxx                   </tspan>
+<tspan x="15" y="90">                   CvnnnnnnnnnnnnnunYxvunnr        </tspan>
+<tspan x="15" y="110">       xjnxxxur dnnnnnnnnnnnnnnnnnnnnnnnnnnn       </tspan>
+<tspan x="15" y="130">     nxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxx       </tspan>
+<tspan x="15" y="150">     xnnnnnnnnnnnnnnnnnnxuxnrLLOcxxxxnxnnnnn]      </tspan>
+<tspan x="15" y="170">     xxnnnnnnnnnnnnnnx                 xxnnnnn     </tspan>
+<tspan x="15" y="190">      nnnnnnnnnnnnxJ                      xnnnv    </tspan>
+<tspan x="15" y="210">      nuuuuuuuuuun]                        nnuuv   </tspan>
+<tspan x="15" y="230">       nuuuuuuuuu          quvvvvuuvuU       vvuu  </tspan>
+<tspan x="15" y="250">        vvvvvvvv        $cvvvvvvvvvvvvvuu     uvc  </tspan>
+<tspan x="15" y="270">       zccccccc        cccccccczvcccccccccc    czc </tspan>
+<tspan x="15" y="290">       zzzzzzzc       zzzzcc        cXzzzzzc   vcz </tspan>
+<tspan x="15" y="310">     XXXXXXXXXC       XXXz           XXXXXXXX      </tspan>
+<tspan x="15" y="330">   UYYYYYYYYYY       JYYYC             UYYYYYY     </tspan>
+<tspan x="15" y="350"> UUUUUUUUUUUUUL      wUUU              mUUUUUC     </tspan>
+<tspan x="15" y="370">YUJJJJJJJJJJJJJ       JJJU             $JJJJJJ     </tspan>
+<tspan x="15" y="390">UJCCCCCCCCCCCCCC       CCCCC           JJCCCCC     </tspan>
+<tspan x="15" y="410">  CLCCCCCCCCCCLLCC      JLLLLCCCLL    QCLCCCCCCC   </tspan>
+<tspan x="15" y="430">     QQLLQLLLLLLLQX         tZd      LLQLLLLLLLQQ  </tspan>
+<tspan x="15" y="450">         #0Q0000000Q                q0000000000QQ  </tspan>
+<tspan x="15" y="470">           O0000000000O00       8O0000000000Zm     </tspan>
+<tspan x="15" y="490">            wOOOOOOOOOOOOOOOOOOOOOOOOOOOOO         </tspan>
+<tspan x="15" y="510">            ZZZZZZZZZZZZZZZZZZZZZZZZZZZZm          </tspan>
+<tspan x="15" y="530">            mmmmmmmmmmmmmmmmmmmmmmmmmmm            </tspan>
+<tspan x="15" y="550">            wwwwwwwwmmpqwwwwwwwwwwwwwwt            </tspan>
+<tspan x="15" y="570">             wqqqp#          bqqqqqqqq             </tspan>
+<tspan x="15" y="590">                                qqppw              </tspan>
 </text>
+</g>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">ilham@ilhamlii21</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Linux, Android</tspan>
